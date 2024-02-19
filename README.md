@@ -1,2 +1,2 @@
 # JS-codes
-This repo consists of the basic topics of JS, that I have been learning. All the concepts required to learn the basics of javascript language are covered and the used code is present in the repo.
+This repo consists of the basic topics of JS, that I have been learning through chai and codes playlist of JavaScript language. Every file has the initial of the lectures number and then underscore and the topic covered.
