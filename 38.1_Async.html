@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS</title>
+</head>
+<body>
+    <h1>Home Page</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    // Example 1: using setTimeout()
+    const sayAparna = function() {
+        console.log("aparna");
+    }
+    setTimeout(sayAparna,2000) //just add the reference to the func
+    // Example 2: 
+    const change = function() {
+        document.querySelector('h1').innerHTML = "Landing Page"
+    }
+    const chnageHead = setTimeout(change, 2000)
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(chnageHead)
+        console.log('Stop');
+    })
+</script>
+</html>
